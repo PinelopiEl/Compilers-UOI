@@ -1,0 +1,23 @@
+program MAX
+
+	declare a,b,c,d,e;
+	
+	function max(in x, in y)
+	{
+		if (x>y)
+		{
+			return(x);
+		}
+		else{
+			return(y);
+		};
+		
+	}
+	#main#
+	{
+		if (x>y)
+		{
+			return(x);
+		};
+	call max(in a,in b);
+	}.

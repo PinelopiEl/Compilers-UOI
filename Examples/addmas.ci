@@ -1,0 +1,25 @@
+program add
+	declare x,g;
+	declare y,l;
+	function a(in y)
+	{
+		if(x>0)
+		{
+			return(0);
+			return(1);
+			
+			call a(in i);
+		};
+		return(y);
+	}
+	function b(in x)
+	{
+		if(g>0){
+			call a(inout b);
+		};
+
+		
+	#main#
+	{
+	e := a(inout i);
+	}.

@@ -1,0 +1,25 @@
+program compare
+	
+	declare x,y;
+	
+	procedure comp(in x,in y)
+	{
+		if(x<y){
+			return(y);
+		}
+		else
+		{
+			return(x);
+		}
+		
+	}
+	#main#
+	{	
+			input(x);
+			input(y);
+			print(comp(in x,in y));
+	}
+	.
+	
+
+	

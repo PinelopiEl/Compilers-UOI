@@ -1,0 +1,15 @@
+program exp
+	
+	declare x,i,t,y;
+	
+	#main#
+	{
+		
+		while(i != 1)
+		{
+			t := t*2;
+			i := i-1;
+		};
+		print(t);
+	}
+	.
